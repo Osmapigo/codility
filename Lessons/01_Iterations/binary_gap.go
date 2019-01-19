@@ -11,7 +11,6 @@ func main() {
 
 func solution(N int) int {
 	n := fmt.Sprintf("%b", N)
-	fmt.Println(n)
 	count := 0
 	buffer := 0
 	for _, v := range n {
